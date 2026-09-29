@@ -17,7 +17,7 @@ I build backtesting infrastructure, quantitative strategies, and the tools to re
 
 ![Portfolio equity curve](equity_curve.png)
 
-Illustrative index (base 100) compounding backtested yearly returns consistent with the 501.78% annualized figure above. Log-scale growth on a linear axis for illustration — one realized path of many under simulation; not a forecast.
+Illustrative index (base 100) compounding backtested yearly returns consistent with the 501.78% annualized figure above, shown on a log-scale axis — one realized path of many under simulation; not a forecast.
 
 ---
 
