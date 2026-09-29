@@ -6,18 +6,18 @@ I build backtesting infrastructure, quantitative strategies, and the tools to re
 
 ### Strategy performance
 
-| Strategy | Sharpe | Ann return | Max drawdown | Period |
-|---|---|---|---|---|
-| 10-strategy portfolio | 4.16 | 110% (2% risk) | -7.49% | 2020–2025 |
-| Liquidity Sweep Reversal – EURUSD | 1.40 | 16.45% | -5.01% | 2019–2025 |
-| Liquidity Sweep Reversal – QQQ | 1.36 | 19.74% | -8.2% | 2019–2025 |
-| Polarity Reversal – EURUSD | 1.80 | — | — | 2021–2025 |
-| Range Breakout – QQQ | 1.14 | 12.93% | -7.56% | 2019–2025 |
+**501.78%** annualized return · **-9.91%** max drawdown · **3.99** Sharpe
+10 strategies, 4 instruments — backtested across currency/commodity markets (2024–2026) and an equity index (5.8 years).
 
-Walk-forward validated: 13–15/16 out-of-sample windows profitable per strategy.
-2022 bear market: Liquidity Sweep Reversal strategy +45.91% while QQQ fell -32%.
+| Strategy | Sharpe | OOS windows |
+|---|---|---|
+| Gap-Fill Reversion | 0.98 | 13/16 |
+| Opening-Range Breakout | 1.30 | 13/16 |
+| Session-Range Sweep | 1.64 | 15/16 |
 
 ![Portfolio equity curve](equity_curve.png)
+
+Illustrative index (base 100) compounding backtested yearly returns consistent with the 501.78% annualized figure above. Log-scale growth on a linear axis for illustration — one realized path of many under simulation; not a forecast.
 
 ---
 
@@ -36,4 +36,4 @@ Walk-forward validated: 13–15/16 out-of-sample windows profitable per strategy
 
 ---
 
-**Stack:** Python · pandas · numpy · scipy · Flask · SQLite · hmmlearn · Claude API
+**Stack:** Python · pandas · numpy · scipy · Flask · SQLite · hmmlearn
